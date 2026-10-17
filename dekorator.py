@@ -1,4 +1,4 @@
-"""def przykladowy_decorator(func):
+def przykladowy_decorator(func):
     def wrapper(*args, **kwargs):
         print("Przed")
         wynik = func(*args, **kwargs)
@@ -13,4 +13,4 @@ def suma(a, b):
 
 
 x = przykladowy_decorator(suma)
-x(1, 2)"""
+x(1, 2)
